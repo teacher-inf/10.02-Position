@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(224, 59, 59);
+    z-index: -2;
+}
+.green1 {
+    position: static;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(74, 159, 131);
+    z-index: 10;
+}
+.green2 {
+    position: static;
+    width: 150px;
+    height: 150px;
+    /* gap: 10px; */
+    margin-top: 10px;
+    /* padding: 10px; */
+    background-color: rgb(74, 159, 131);
+    z-index: 10;
+    opacity: 0.5;
+}
+.red1 {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(224, 59, 59);
+    /* z-index: -1; */
+}
+.fix {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(205, 100, 145);
+    font-size: 50px; 
+    overflow: hidden;
+}
+.conteiner {
+    display: flex;
+    position: relative;
+}
+.block {
+    width: 150px;
+    height: 150px;
+}
+.blue1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(85, 101, 242); 
+}
+.red2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    /* width: 150px; */
+    /* height: 150px; */
+    background-color: rgb(224, 59, 59);
+}
+.blue2 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(85, 101, 242); 
+}
+/* 
+.conteiner {
+    display: flex;
+    position: relative;
+}
+.block {
+    width: 400px;
+    height: 400px;
+}
+.red {
+    background-color: rgba(81, 31, 31,0.5);
+    position: absolute;
+    margin-top: 100px;
+    top: 100px;
+    left: 100px;
+    opacity: 1;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 10;
+}
+*/
